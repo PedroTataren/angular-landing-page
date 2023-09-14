@@ -1,8 +1,7 @@
 .container__big-card {
     width: 600px;
     height: 500px;
-    min-width: 600px;
-    margin-left: 20px;
+    margin-left: 150px;
     margin-right: 30px;
 
     display: flex;
@@ -13,17 +12,20 @@
 }
 
 .big-card__picture {
-    min-width: 600px
+    width: 100%;
 }
 
 .big-card__title {
-    font-size: 13px;
-    padding: 7px;
-    color: white !important;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: rgb(224, 215, 215) !important;
 }
 
 .big-card__description {
-    font-size: 12px;
+    font-size: 19.5px;
     padding: 7px;
-    color: #818589 !important
+    padding-left: 10px;
+    color: #969fa3 !important
 }
